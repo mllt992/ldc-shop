@@ -1,8 +1,7 @@
 {
     "name": "ldc-shop-next",
-    "main": "worker-entry.mjs",
-    "keep_names": true,
-    "keep_vars": true,
+    "main": ".open-next/worker.js",
+    "keep_names": false,
     "compatibility_date": "2025-11-12",
     "compatibility_flags": [
         "nodejs_compat"
@@ -17,11 +16,6 @@
             "database_name": "ldc-shop-next"
         }
     ],
-    "triggers": {
-        "crons": [
-            "* * * * *"
-        ]
-    },
     "observability": {
         "enabled": true
     }
